@@ -35,18 +35,7 @@ export default {
 
   data() {
     return {
-      messages: [
-        {
-          id: 1,
-          author: "Renan",
-          text: "teste teste teste"
-        },
-        {
-          id: 2,
-          author: "Samuel",
-          text: "vo te pega no soco!"
-        },
-      ]
+      messages: []
     }
   },
 
