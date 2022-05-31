@@ -74,13 +74,17 @@ export default {
   },
 
   created() {
-    const api_url = `${process.env.VUE_APP_API_URL}/messages`
-    axios.get(api_url).then((response) => {
-      this.messages = response.data
-    })
+    this.get_data()
   },
 
   methods: {
+    get_data() {
+      const api_url = `${process.env.VUE_APP_API_URL}/messages`
+      axios.get(api_url).then((response) => {
+        this.messages = response.data
+      })
+    },
+
     send_data() {
       const api_url = `${process.env.VUE_APP_API_URL}/messages/`
       const payload = {
@@ -90,6 +94,7 @@ export default {
       axios.post(api_url, payload).finally(() => {
         this.form.author = null
         this.form.text = null
+        this.get_data()
       })
     }
   }
