@@ -22,7 +22,7 @@
                 </div>
               </div>
               <div class="field">
-                <button type="submit" class="button is-success">Enviar</button>
+                <button type="submit" class="button is-primary">Enviar</button>
               </div>
             </form>
 
