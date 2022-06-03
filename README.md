@@ -9,8 +9,8 @@
 
 ## Descrição
 
-Apenas um projetinho aleatório de um guestbook, feito com [VUE](https://vuejs.org/)
-+ [Bulma](https://bulma.io/), para estudos.
+Apenas um projetinho aleatório de um guestbook, feito com [VUE](https://vuejs.org/) +
+[Bulma](https://bulma.io/), para estudos.
 
 Se comunica com o [guestbook-backend](https://github.com/renanstn/guestbook-backend).
 
