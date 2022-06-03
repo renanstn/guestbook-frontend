@@ -8,29 +8,35 @@
 
 ## Descrição
 
-Apenas um projetinho aleatório de um guestbook, feito com [VUE](https://vuejs.org/) + [Bulma](https://bulma.io/), para estudos.
+Apenas um projetinho aleatório de um guestbook, feito com [VUE](https://vuejs.org/)
++ [Bulma](https://bulma.io/), para estudos.
 
 Se comunica com o [guestbook-backend](https://github.com/renanstn/guestbook-backend).
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run serve
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Lints and fixes files
+
 ```
 npm run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
