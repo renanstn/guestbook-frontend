@@ -79,7 +79,7 @@ export default {
 
   methods: {
     get_data() {
-      const api_url = `${process.env.VUE_APP_API_URL}/messages`
+      const api_url = `${process.env.VUE_APP_API_URL}/messages/`
       axios.get(api_url).then((response) => {
         this.messages = response.data
       })
